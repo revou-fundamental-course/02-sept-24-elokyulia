@@ -1,0 +1,126 @@
+
+/*untuk memberi warna background judul */
+.main-header {
+    border: none;
+    text-align:center;
+    background-color: aquamarine;
+}
+
+/*untuk menampilkan pilihan content */
+.selection-content {
+    display :left;
+    flex-direction:column; 
+}
+
+/*untuk memberi ukuran tombol butuon */
+.selection-btn {
+    height : 32px;
+    border : none ;
+    border-radius : 8px;
+}
+
+/*untuk memberi warna background button */
+    .bisque-color {
+    background-color : bisque
+}
+    
+/*untuk memberi warna background button */
+   .aqua-color {
+    background-color : white
+   }
+
+/*untuk memberi warna background judul */
+   .luas-segitiga-header {
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    margin : 0px;
+    background-color : cadetblue;
+    text-align: center;
+   }
+
+/*untuk menampilkan judul content */
+   .luas-segitiga-content{
+    display: flex;
+    flex-direction: column;
+   }
+
+/*untuk mengatur posisi,ukuran dan background gambar */
+    .luas-segitiga-img1{
+    height: 250px;
+    width: 250px;
+    background-image :url(../asset/segitiga4.jpg);
+    background-size :cover;
+    background-position: center;
+    align-self :left;
+}
+
+/*untuk mengatur posisi,ukuran dan background gambar */
+.kllg-segitiga-img2{
+    height: 250px;
+    width: 250px;
+    background-image :url(../asset/segitiga4.jpg);
+    background-size :cover;
+    background-position: center;
+    align-self :right;
+}
+
+/*untuk menampilkan judul form */
+   .luas-segitiga-form-header{
+    text-align:center;
+   }
+
+/*untuk mengatur posisi,ukuran dan background gambar */
+.kllg-segitiga-header {
+    padding-top: 1px ;
+    padding-bottom: 1px;
+    margin : 0px;
+    background-color : cadetblue;
+    text-align: center;
+   }
+
+/*untuk menampilkan judul form */   
+.kllg-segitiga-form-header{
+    text-align:left;
+   }
+
+/*untuk menampilkan ukuran dan posisi tempat inputan */ 
+   .input-wrapper {
+    width : 40%;
+    display:flex ;
+    justify-content : space-between;
+    align-items : center ;
+   }
+
+
+/*untuk menampilkan ukuran dan posisi tempat inputan */
+   .input-wrapper {
+    width : 40%;
+    display: flex; columns: 1;
+   }
+
+ /*untuk menampilkan ukuran dan posisi isi inputan */   
+    input type-number {
+    padding: 12px 10px ;
+    margin : 8px 0;
+    display:inline-block ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box;
+   }
+
+ /*untuk menampilkan judul konten */ 
+   .main-content{
+    display: flex;
+   }
+
+ /*untuk menampilkan posisi konten */ 
+   .maint-content-aside {
+    flex : 1;
+}
+ 
+ /*untuk memberikan responsive pada gambar */
+   @media only screen and(max-width :480px) {
+        .main-content {
+        flex-direction:column;
+        }
+   }
